@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billedgalleri</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f7f7f7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      gap: 40px;
+    }
+
+    .image-box {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      max-width: 90%;
+      text-align: center;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .caption {
+      margin-top: 10px;
+      color: #333;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-box">
+    <img src="deer-heart.png" alt="Farverige hjorte med hjerte">
+    <div class="caption">Farverige hjorte med hjerte</div>
+  </div>
+
+  <div class="image-box">
+    <img src="nurses.png" alt="To smilende sundhedsarbejdere">
+    <div class="caption">To smilende sundhedsarbejdere</div>
+  </div>
+
+</body>
+</html>
