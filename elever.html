@@ -3,9 +3,66 @@
 <html lang="da"><head><meta charset="UTF-8"><title>Elever og Vejleder</title></head><body>
 <header><a href="index.html">Tilbage til Forside</a></header>
 <h1>Elever og Vejleder</h1>
-<img src="billede2.png" alt="Elever og vejleder billede" style="width: 100%; max-width: 800px;" />
-<p>På Hjortekær plejehjem tilbyder vi et godt og trygt læringsmiljø  for elever i praktik. Her er fokus på faglig udvikling, samarbejde og refleksion. 
- Elever har adgang til vejledning, introduktion til dokumentation og mulighed for at arbejde med konkrete arbejdsopgaver sammen med erfarne kollegaer.
-Vi bruger forskellige læringsredskaber som refleksionsskemaer, logbog og cases fra hverdagen
-  Derudover har vi fokus på løbende feedback og læringssamtaler med praktikvejlederen...</p>
-</body></html>
+<style>
+  .praktik-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    flex-wrap: wrap;
+  }
+
+  .praktik-text {
+    flex: 1 1 400px;
+    max-width: 600px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .praktik-text ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .praktik-text li::before {
+    content: "✔️ ";
+    color: #4CAF50;
+    margin-right: 8px;
+  }
+
+  .praktik-image {
+    flex: 1 1 300px;
+    max-width: 450px;
+    text-align: center;
+  }
+
+  .praktik-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+</style>
+
+<div class="praktik-section">
+  <div class="praktik-text">
+    <ul>
+      <li>På Hjortekær plejehjem tilbyder vi et godt og trygt læringsmiljø for elever i praktik. Her er fokus på faglig udvikling, samarbejde og refleksion.</li>
+      <li>Elever har adgang til vejledning, introduktion til dokumentation og mulighed for at arbejde med konkrete arbejdsopgaver sammen med erfarne kollegaer.</li>
+      <li>Vi bruger forskellige læringsredskaber som refleksionsskemaer, logbog og cases fra hverdagen.</li>
+      <li>Derudover har vi fokus på løbende feedback og læringssamtaler med praktikvejlederen.</li>
+    </ul>
+  </div>
+
+  <div class="praktik-image">
+    <img src="billede2.jpg" alt="Praktik på Hjortekær plejehjem">
+  </div>
+</div>
